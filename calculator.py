@@ -15,3 +15,6 @@ def divide(a: int, b: int) -> float:
     except ZeroDivisionError:
         logger.error("division by zero")
         return 0.0
+
+def subtract(a, b):
+    return a - b
