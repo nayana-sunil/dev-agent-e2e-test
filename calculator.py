@@ -18,3 +18,4 @@ def divide(a: int, b: int) -> float:
 
 def subtract(a, b):
     return a - b
+
