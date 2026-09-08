@@ -17,3 +17,8 @@ def divide(a, b):
     if b == 0:
         raise ValueError("cannot divide by zero")
     return a / b
+
+
+def average(numbers):
+    """Return the average of a list of numbers."""
+    return sum(numbers) / len(numbers)
