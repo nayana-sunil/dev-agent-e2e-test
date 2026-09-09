@@ -1,5 +1,6 @@
 ﻿def add(a, b):
     """Add two numbers."""
+    print("add called with", a, b)
     return a + b
 
 
@@ -22,3 +23,4 @@ def divide(a, b):
 def average(numbers):
     """Return the average of a list of numbers."""
     return sum(numbers) / len(numbers)
+
